@@ -1,0 +1,38 @@
+Question 1: Registration Form
+Create a basic user registration form using the following fields:
+Full Name (Text field), 
+Email Address (Email field), 
+Password (Password field), 
+Date of Birth (Date field) , 
+Mobile Number (Number field)
+Submit Button
+
+----------------------------------------
+Question 2: Event Booking Form
+Design a form to register for an event with the following:
+Name (Text field),  Email (Email field) , Number of Tickets (Number field), 
+Preferred Event Date (Date field), 
+Submit Button
+
+--------------------------------
+Question 3: Login Form
+Create a simple login form with the following:
+Username or Email (Text field or Email field) , 
+Password (Password field) , 
+Submit Button
+
+---------------------------------
+
+Question 4:  Create a Job Appliction form with:
+Name, Email, Phone ,Upload Resume (file input) , Select Position (drop-down) , Years of Experience (number input) , Cover Letter (textarea), Submit button
+
+-----------------------------------
+
+Question 5 : 
+Build a feedback survey form with:
+Name (optional) , Rate your experience (1–5, radio buttons) ,  Services used (checkboxes),  Comments (textarea) , Submit button
+
+------------------------------------
+
+Question 6 : Make a product order form:
+Customer Name , Email & Address ,Product selection (drop-down) , Quantity (number input) , Payment method (radio) ,  Submit button

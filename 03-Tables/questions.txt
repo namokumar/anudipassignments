@@ -1,0 +1,32 @@
+1. Create an unordered list showing the items in your daily to-do list.
+
+2. Create an ordered list of the top 5 programming languages in 2025.
+
+3. Create a nested list where the outer list contains "Fruits" and "Vegetables", and each has a sublist of three items.
+
+4. Create a list showing steps to bake a cake using an ordered list.
+
+5. Display a list of your favorite movies using a bulleted (unordered) list.
+
+6. Create an HTML table to display student details: Name, Roll No, Class, and Marks.
+
+7. Make a table to show monthly expenses: Category, Amount, and Date.
+
+8. Design a table to represent a cricket scoreboard: Player Name, Runs, Balls, Strike Rate.
+
+9. Create a table for a library book list with columns: Book Title, Author, Genre, Availability.
+
+10. Create an HTML table to display the marks of students in three subjects. 
+The table should include:
+
+11. A header row with the columns: Roll No, Name, Maths, Science, English, Total Marks
+
+12. Add data for at least 3 students.
+
+13. Calculate Total Marks manually and include it in the table.
+
+14. Add a border to the table.
+
+15. Center-align the headings and right-align the marks.
+
+16. Create an HTML table that shows a list of employees with the following columns: Employee ID, Name, Department, Email, and Phone Number.
