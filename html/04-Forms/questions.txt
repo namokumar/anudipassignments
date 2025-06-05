@@ -36,3 +36,20 @@ Name (optional) , Rate your experience (1–5, radio buttons) ,  Services used (
 
 Question 6 : Make a product order form:
 Customer Name , Email & Address ,Product selection (drop-down) , Quantity (number input) , Payment method (radio) ,  Submit button
+
+------------------------------------
+
+Question 7 : Hotel Booking Form
+Build a form to book a hotel room:
+
+Name , 
+Check-in Date, 
+Check-out Date, 
+Number of Guests (number field) , 
+Room Type (select dropdown: Standard, Deluxe, Suite), Additional Requirements (textarea),
+Submit button
+--------------------------------------
+ Question 8 : Job Application Form
+Design a form for job applications with:
+Name, Email, Upload Resume (file input) , Job Position (select dropdown), 
+Cover Letter (textarea) , Submit button
