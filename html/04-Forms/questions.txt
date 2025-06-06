@@ -23,7 +23,7 @@ Submit Button
 
 ---------------------------------
 
-Question 4:  Create a Job Appliction form with:
+Question 4:  Create a Job Application form with:
 Name, Email, Phone ,Upload Resume (file input) , Select Position (drop-down) , Years of Experience (number input) , Cover Letter (textarea), Submit button
 
 -----------------------------------
@@ -48,8 +48,36 @@ Check-out Date,
 Number of Guests (number field) , 
 Room Type (select dropdown: Standard, Deluxe, Suite), Additional Requirements (textarea),
 Submit button
+
 --------------------------------------
+
  Question 8 : Job Application Form
 Design a form for job applications with:
 Name, Email, Upload Resume (file input) , Job Position (select dropdown), 
 Cover Letter (textarea) , Submit button
+
+--------------------------------------
+
+Question 9:
+Student Registration Form
+Create a student registration form with the following fields:
+            • Full Name (Text)
+            • Email (Email)
+            • Date of Birth (Date)
+            • Gender (Radio Buttons)
+            • Courses (Checkboxes)
+            • Country (Dropdown)
+            • Submit Button
+   Also, use the <fieldset> and <legend> to group related fields.
+
+--------------------------------------
+
+ Question 10:
+ HTML Page with Navigation Links
+ Create an HTML page with:
+ • A heading and short introduction
+ • A list of 4 sections (e.g., Home, About Us, Services, Contact)
+ • Use internal hyperlinks (#id) to jump to each section on the same page.
+ • Also include an external hyperlink to Google or any other site
+
+ --------------------------------------
