@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.body {
+    align-content: center;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    font-size: 22px;
+}
+
+.login-form {
+    border: 3px solid #50b521;
+    width: 40%;
+    height: 45%;
+    display: inline-block;
+}
+
+.heading {
+    text-align: center;
+    background: #50b521;
+    color: white;
+    padding: 1rem;
+}
+
+.content {
+    align-self: center;
+    text-align: center;
+    padding: 2rem;
+}
+
+.user-id,
+.password {
+    margin-bottom: 1.2rem;
+}
+
+.user-id,
+.password,
+input[type="text"],
+input[type="password"] {
+    color: orange;
+    font-weight: 600;
+}
+
+#user-id {
+    float: right;
+}
+
+.login {
+    margin: 1rem;
+}
+
+.login input {
+    border: none;
+    color: white;
+    background: orange;
+    padding: 0.5rem 4rem;
+    font-weight: 700;
+    font-size: 20px;
+}

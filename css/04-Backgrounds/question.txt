@@ -1,0 +1,4 @@
+Design a web page containg four div each of width 60 % and height: 50%. in first div background image must be right bottom
+second div  background image must be left bottom
+third div  background image must be center
+fourth div  background image must be left center

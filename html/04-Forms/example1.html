@@ -1,0 +1,59 @@
+<html>
+<head>
+	<title>Form example</title>
+</head>
+<body>
+	<h2>Registration Form </h2>
+	<form>
+		<table width="50%" height="60%">
+			<tr>
+				<td>Name</td>
+				<td><input type="text" name="stdname" placeholder="Enter your name" required></td>
+			</tr>
+			<tr>
+				<td>Select Qualification </td>
+				<td>
+					<input type="checkbox" name="tenth" value="10th"> 10th<br>
+					<input type="checkbox" name="tewlve" value="12th"> 12th<br>
+					<input type="checkbox" name="graduation" value="graduation"> Graduation
+				</td>
+			</tr>
+			<tr>
+				<td>Select Gender </td>
+				<td>
+					<input type="radio" name="gender" value="male"> Male
+					<input type="radio" name="gender" value="female"> Female
+					<input type="radio" name="gender" value="others"> Others
+				</td>
+			</tr>
+			<tr>
+				<td>Select State</td>
+				<td>
+					<select name="state">
+						<option value="bihar">Bihar</option>
+						<option value="up">Uttar Pradesh</option>
+						<option value="rajasthan">Rajasthan</option>
+						<option value="delhi">Delhi</option>
+						<option value="gujrat">Gujrat</option>
+						<option value="punjab">Punjab</option>
+						<option value="karnataka">Karnataka</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>Contact No.</td>
+				<td><input type="number" name="contact" min="1000000000" max = "9999999999" required></td>
+			</tr>
+			<tr>
+				<td>Email id</td>
+				<td><input type="email" name="emailid" placeholder="Enter email address" required></td>
+			</tr>
+			<tr>
+				<td><input type="reset" value="Clear All"></td>
+				<td><input type="submit" value="Register"></td>
+			</tr>
+		</table>		
+	</form>
+</body>
+</html>
+
