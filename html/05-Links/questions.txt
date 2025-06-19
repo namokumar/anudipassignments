@@ -1,0 +1,9 @@
+Question 1:
+ HTML Page with Navigation Links
+ Create an HTML page with:
+ • A heading and short introduction
+ • A list of 4 sections (e.g., Home, About Us, Services, Contact)
+ • Use internal hyperlinks (#id) to jump to each section on the same page.
+ • Also include an external hyperlink to Google or any other site
+
+ --------------------------------------
