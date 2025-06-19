@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+
+<!--Issues -->
+<!--Submit button got invisible after input type="file" is given-->
+<!--Form data does not reset after refresh.-->
+
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Job Application Form</title>
+		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+	</head>
+	<body>
+		<main>
+			<h1 align="center">Job Application Form</h1>
+			<form method="GET" action="">
+				<!--  enctype="multipart/form-data"-->
+				<table
+					width="40%"
+					height="60%"
+					align="center"
+					cellspacing="15px"
+					border="1">
+					<tr>
+						<th align="left">Name:</th>
+						<td>
+							<input
+								type="text"
+								id="name"
+								placeholder="Please enter your name"
+								minlength="3"
+								maxlength="35"
+								required />
+						</td>
+					</tr>
+
+					<tr>
+						<th align="left">Email:</th>
+						<td>
+							<input
+								type="email"
+								id="email"
+								placeholder="Please enter your email id"
+								required />
+						</td>
+					</tr>
+
+					<tr>
+						<th align="left">Phone Number:</th>
+						<td>
+							<input
+								type="number"
+								id="phone"
+								placeholder="Please enter your phone no."
+								min="1000000000"
+								max="9999999999"
+								required />
+						</td>
+					</tr>
+
+					<tr>
+						<th align="left">Date of Birth:</th>
+						<td>
+							<input type="date" id="date" required />
+						</td>
+					</tr>
+
+					<tr>
+						<th align="left">Gender:</th>
+						<td>
+							<input type="radio" id="male" value="male" required />
+							<label for="male"> Male </label> <br />
+
+							<input type="radio" id="female" value="female" required />
+							<label for="female"> Female </label> <br />
+
+							<input type="radio" id="trans" value="trans" required />
+							<label for="trans"> Trans Gender </label> <br />
+
+							<input type="radio" id="pnos" value="pnos" required />
+							<label for="pnos"> Prefer not to say </label> <br />
+						</td>
+					</tr>
+
+					<tr>
+						<th align="left">Skills:</th>
+						<td>
+							<input type="checkbox" id="html" value="html" />
+							<label for="html">Html</label> <br />
+
+							<input type="checkbox" id="css" value="css" />
+							<label for="css">CSS</label> <br />
+
+							<input type="checkbox" id="javascript" value="javascript" />
+							<label for="javascript">JavaDcript</label> <br />
+
+							<input type="checkbox" id="React.js" value="React.js" />
+							<label for="React.js">React.js</label> <br />
+
+							<input type="checkbox" id="tailwind" value="tailwind" />
+							<label for="tailwind">Tailwind</label> <br />
+
+							<input type="checkbox" id="java" value="java" />
+							<label for="java">Java</label> <br />
+
+							<input type="checkbox" id="sql" value="" />
+							<label for="sql">SQL</label> <br />
+						</td>
+					</tr>
+
+					<tr>
+						<th align="left">Preffered Job Location:</th>
+						<td>
+							<select name="joblocation" id="joblocation">
+								<option value="India">India</option>
+								<option value="USA">USA</option>
+								<option value="Canada">Canada</option>
+								<option value="Australia">Australia</option>
+								<option value="Germany">Germany</option>
+								<option value="Russia">Russia</option>
+								<option value="South America">South America</option>
+								<option value="Hong Kong">Hong Kong</option>
+								<option value="Ukraine">Ukraine</option>
+								<option value="Azerbaijan">Azerbaijan</option>
+								<option value="Dubai">Dubai</option>
+							</select>
+						</td>
+					</tr>
+
+					<tr>
+						<th align="left">Upload Resume:</th>
+						<td>
+							<input
+								type="file"
+								name="file-upload"
+								id="file-upload"
+								accept="image/*,.pdf, .docx, .xlxs"
+								required />
+						</td>
+					</tr>
+
+					<tr>
+						<th align="left">A short Bio:</th>
+						<td>
+							<textarea
+								minlength="20"
+								maxlength="500"
+								placeholder="Please write a short bio about yourself"
+								required></textarea>
+						</td>
+					</tr>
+
+					<tr>
+						<td colspan="2" align="center">
+							<input type="submit" id="sumbit-btn" value="Submit Form" />
+						</td>
+					</tr>
+				</table>
+			</form>
+		</main>
+	</body>
+</html>
