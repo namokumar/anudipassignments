@@ -6,11 +6,27 @@ Date of Birth (Date field) ,
 Mobile Number (Number field)
 Submit Button -->
 
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Document</title>
-    </head>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Registration Form</title>
+	</head>
+	<body>
+		<h1>Registration Form</h1>
+		<form>
+			<!--By Default if form is blank, it will submit the whole page -->
+			<div>
+				<label>User Name: </label>
+				<input name="User Name" />
+				<!--wE HAVE TO GIVE "NAME" Attribute because it tell the browser that what is the name of the input field-->
+			</div>
+			<div>
+				<label>Password: </label>
+				<input name="Password" />
+			</div>
+			<button>Submit</button>
+		</form>
+	</body>
 </html>
