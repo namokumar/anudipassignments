@@ -3,7 +3,7 @@ Full Name (Text field),
 Email Address (Email field),
 Password (Password field),
 Date of Birth (Date field) ,
-Mobile Number (Number field)
+Mobile Number (Number field),
 Submit Button -->
 
 <!DOCTYPE html>
@@ -15,18 +15,138 @@ Submit Button -->
 	</head>
 	<body>
 		<h1>Registration Form</h1>
+
+		<h3>
+			Create a basic user registration form using the following fields: Full
+			Name (Text field), Email Address (Email field), Password (Password field),
+			Date of Birth (Date field) , Mobile Number (Number field) and Submit
+			Button
+		</h3>
 		<form>
 			<!--By Default if form is blank, it will submit the whole page -->
 			<div>
-				<label>User Name: </label>
-				<input name="User Name" />
-				<!--wE HAVE TO GIVE "NAME" Attribute because it tell the browser that what is the name of the input field-->
+				<label for="FullName">Full Name: </label>
+				<!--For and id are linked because without that, if user clicks on label, that specific input box will not be hilighted. This creates problems for screen readers.-->
+				<input
+					type="text"
+					name="FullName"
+					id="FullName"
+					placeholder="Please Enter your full name."
+					required />
+				<!--We use "value" attribute to set default values to input tag-->
+				<!--wE HAVE TO GIVE "NAME" Attribute because it tell the browser that what is the name of the input field. It also controls how our input field name will look in the URL.-->
 			</div>
+
 			<div>
-				<label>Password: </label>
-				<input name="Password" />
+				<label for="Email">Email Address: </label>
+				<input
+					type="email"
+					name="Email"
+					id="Email"
+					placeholder="Please enter your email."
+					required />
 			</div>
-			<button>Submit</button>
+
+			<div>
+				<label for="Password">Password: </label>
+				<input
+					type="password"
+					name="Password"
+					id="Password"
+					placeholder="Please enter your password."
+					required />
+				<!--By default, input has "text" type and we should specify our type.-->
+			</div>
+
+			<div>
+				<label for="DOB">Date of Birth: </label>
+				<input
+					type="date"
+					name="DOB"
+					id="DOB"
+					placeholder="Please enter your DOB."
+					required />
+			</div>
+
+			<div>
+				<label for="phone">Phone Number: </label>
+				<input
+					type="tel"
+					name="phone"
+					id="phone"
+					placeholder="Please enter your phone no."
+					required
+					min="1111111111"
+					max="9999999999" />
+			</div>
+
+			<div>
+				<label for="age">Age: </label>
+				<input
+					type="number"
+					name="age"
+					id="age"
+					min="1"
+					max="150"
+					step="1"
+					placeholder="Please enter your password."
+					required />
+				<!--By default, input has "text" type and we should specify our type.-->
+			</div>
+
+			<div>
+				Gender:
+				<span>
+					<input type="radio" name="gender" id="gender" />
+					<label for="Gender">Male </label>
+				</span>
+
+				<span>
+					<input type="radio" name="gender" id="gender" />
+					<label for="Gender">Female </label>
+				</span>
+
+				<span>
+					<input type="radio" name="gender" id="gender" />
+					<label for="Gender">Trans Gender </label>
+				</span>
+
+				<span>
+					<input type="radio" name="gender" id="gender" />
+					<label for="Gender">Prefer not to say </label>
+				</span>
+			</div>
+
+			<div>
+				Preferr Job Location:
+				<span>
+					<input type="checkbox" name="gender" id="gender" />
+					<label for="Gender">India </label>
+				</span>
+
+				<span>
+					<input type="checkbox" name="gender" id="gender" />
+					<label for="Gender">Belarus </label>
+				</span>
+
+				<span>
+					<input type="checkbox" name="gender" id="gender" />
+					<label for="Gender">Dubai </label>
+				</span>
+
+				<span>
+					<input type="checkbox" name="gender" id="gender" />
+					<label for="Gender">USA </label>
+				</span>
+
+				<span>
+					<input type="checkbox" name="gender" id="gender" />
+					<label for="Gender">Russia </label>
+				</span>
+			</div>
+
+			<button type="submit">Submit</button>
+			<button type="reset">Reset</button>
 		</form>
 	</body>
 </html>
