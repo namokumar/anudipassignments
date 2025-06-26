@@ -1,37 +1,152 @@
+<!-- Create a basic user registration form using the following fields:
+Full Name (Text field),
+Email Address (Email field),
+Password (Password field),
+Date of Birth (Date field) ,
+Mobile Number (Number field),
+Submit Button -->
+
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Hotel Booking Form-</title>
-    </head>
-    <body>
-    <h1>Registration Form Demo-</h1>
-    <!-- Create a basic user registration form using the following fields:
-    Full Name (Text field),
-    Email Address (Email field),
-    Password (Password field),
-    Date of Birth (Date field) ,
-    Mobile Number (Number field)
-    Submit Button -->
-    <form action="#" method="GET">
-        <label for="Name">Name : </label>
-        <input type="text" name="name" placeholder="Please enter your name" required> <br />
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Registration Form</title>
+	</head>
+	<body>
+		<h1>Registration Form</h1>
 
-        <label for="Email">Email : </label>
-        <input type="email" name="email" placeholder="Please enter your email" required> <br />
+		<h3>
+			Create a basic user registration form using the following fields: Full
+			Name (Text field), Email Address (Email field), Password (Password field),
+			Date of Birth (Date field) , Mobile Number (Number field) and Submit
+			Button
+		</h3>
+		<form>
+			<!--By Default if form is blank, it will submit the whole page -->
+			<div>
+				<label for="FullName">Full Name: </label>
+				<!--For and id are linked because without that, if user clicks on label, that specific input box will not be hilighted. This creates problems for screen readers.-->
+				<input
+					type="text"
+					name="FullName"
+					id="FullName"
+					placeholder="Please Enter your full name."
+					required />
+				<!--We use "value" attribute to set default values to input tag-->
+				<!--wE HAVE TO GIVE "NAME" Attribute because it tell the browser that what is the name of the input field. It also controls how our input field name will look in the URL.-->
+			</div>
 
-        <label for="Password">Password : </label>
-        <input type="password" name="password" placeholder="Please enter your password" minlength="8" maxlength="20" required> <br />
+			<div>
+				<label for="Email">Email Address: </label>
+				<input
+					type="email"
+					name="Email"
+					id="Email"
+					placeholder="Please enter your email."
+					required />
+			</div>
 
-        <label for="ConfirmPassword">Confirm Password : </label>
-        <input type="password" name="confirm-password" placeholder="Please confirm your password" minlength="8" maxlength="20" required> <br />
+			<div>
+				<label for="Password">Password: </label>
+				<input
+					type="password"
+					name="Password"
+					id="Password"
+					placeholder="Please enter your password."
+					required />
+				<!--By default, input has "text" type and we should specify our type.-->
+			</div>
 
-        <label for="Date of Birth">Date of Birth : </label>
-        <input type="date" name="date of birth" placeholder="Please enter your date of birth" required /> <br />
+			<div>
+				<label for="DOB">Date of Birth: </label>
+				<input
+					type="date"
+					name="DOB"
+					id="DOB"
+					placeholder="Please enter your DOB."
+					required />
+			</div>
 
-        <label for="Mobile Number">Mobile Number</label>
-        <input type="number" name="mobile number" placeholder="Please enter your mobile number" maxlength="10" required /> <br />
+			<div>
+				<label for="phone">Phone Number: </label>
+				<input
+					type="tel"
+					name="phone"
+					id="phone"
+					placeholder="Please enter your phone no."
+					required
+					min="1111111111"
+					max="9999999999" />
+			</div>
 
-        <input type="submit" value="Submit" />
-    </form>
-    </body>
+			<div>
+				<label for="age">Age: </label>
+				<input
+					type="number"
+					name="age"
+					id="age"
+					min="1"
+					max="150"
+					step="1"
+					placeholder="Please enter your password."
+					required />
+				<!--By default, input has "text" type and we should specify our type.-->
+			</div>
+
+			<div>
+				Gender:
+				<span>
+					<input type="radio" name="gender" id="gender" />
+					<label for="Gender">Male </label>
+				</span>
+
+				<span>
+					<input type="radio" name="gender" id="gender" />
+					<label for="Gender">Female </label>
+				</span>
+
+				<span>
+					<input type="radio" name="gender" id="gender" />
+					<label for="Gender">Trans Gender </label>
+				</span>
+
+				<span>
+					<input type="radio" name="gender" id="gender" />
+					<label for="Gender">Prefer not to say </label>
+				</span>
+			</div>
+
+			<div>
+				Preferr Job Location:
+				<span>
+					<input type="checkbox" name="gender" id="gender" />
+					<label for="Gender">India </label>
+				</span>
+
+				<span>
+					<input type="checkbox" name="gender" id="gender" />
+					<label for="Gender">Belarus </label>
+				</span>
+
+				<span>
+					<input type="checkbox" name="gender" id="gender" />
+					<label for="Gender">Dubai </label>
+				</span>
+
+				<span>
+					<input type="checkbox" name="gender" id="gender" />
+					<label for="Gender">USA </label>
+				</span>
+
+				<span>
+					<input type="checkbox" name="gender" id="gender" />
+					<label for="Gender">Russia </label>
+				</span>
+			</div>
+
+			<button type="submit">Submit</button>
+			<button type="reset">Reset</button>
+		</form>
+	</body>
 </html>

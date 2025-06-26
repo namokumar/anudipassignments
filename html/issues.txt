@@ -1,0 +1,2 @@
+CH4 - forms =
+1) In input type "tel", min="1111111111" max="9999999999" are not working.
