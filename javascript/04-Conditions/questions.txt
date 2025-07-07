@@ -1,0 +1,13 @@
+Date - 01-July-2025 - 6:10pm.
+
+Question 1 : Write a javascript to input any two number and find out the greatest number between them.
+----------------------------------------
+Question 2 : Write a javascript to input any number and check it is natural number or not.
+--------------------------------------
+Question 3: Write a javascript to input any number and check it is odd or even.
+
+Date - 02-July-2025 - 6:53pm.
+
+Question 1 : Write a javascript to check a given number is natural number or not.
+------------------------------------------
+Question 2: Write a javascript to check a given number is divisible by both 3 and 4 or not.

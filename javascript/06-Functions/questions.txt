@@ -1,0 +1,9 @@
+7th July 2025-
+
+Question 1: Write a script in javascript to create a function to calculate perimeter of triangle. Call this function when a button is clicked.
+--------------------------------------------
+Question 2: Write a script in javascript to create a function to check a number is odd or even. Call this function when a button is clicked.
+--------------------------------------
+Question 3: Write a script in javascript to create a function to calculate simple interest. call this function when a button is click
+-------------------------------------------
+Question 4: Write a script in javascript to create a function to calculate product of two number. call this function when a button is clicked.

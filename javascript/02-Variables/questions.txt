@@ -1,0 +1,5 @@
+Question 1 : Write a script to input  length and breadth of Rectangle and find out perimeter and area of rectangle in javascript and display all the data in alert box.
+
+Question 2. Write a script to input distance and time and calculate speed in javascript and display all the data in alert box.
+
+Question 3: Write a script in javascript to input any five number and find out their average in javascript and display in alert box
