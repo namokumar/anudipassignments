@@ -1,4 +1,4 @@
-// Question 2 : Write a javascript to input any number and check it is natural number or not.
+// Question 2: Write a script in javascript to create a function to check a number is odd or even. Call this function when a button is clicked.
 
 "use strict";
 function oddEven() {
