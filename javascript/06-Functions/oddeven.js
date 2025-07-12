@@ -3,11 +3,11 @@
 "use strict";
 function oddEven() {
     let n;
-    n = parseInt(prompt("Enter Enter a Number ="));
+    n = parseInt(prompt("Enter a Number: "));
     if (n % 2 == 0) {
-        document.write(n + " is Even Number");
+        document.write(n + " is Even Number: ");
     }
     else {
-        document.write(n + " is Odd Number");
+        document.write(n + " is Odd Number: ");
     }
 }
