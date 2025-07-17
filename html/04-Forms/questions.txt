@@ -17,8 +17,8 @@ Submit Button
 --------------------------------
 Question 3: Login Form
 Create a simple login form with the following:
-Username or Email (Text field or Email field) , 
-Password (Password field) , 
+Username or Email (Text field or Email field) ,
+Password (Password field) ,
 Submit Button
 
 ---------------------------------

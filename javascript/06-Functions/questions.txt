@@ -7,3 +7,7 @@ Question 2: Write a script in javascript to create a function to check a number 
 Question 3: Write a script in javascript to create a function to calculate simple interest. call this function when a button is click
 -------------------------------------------
 Question 4: Write a script in javascript to create a function to calculate product of two number. call this function when a button is clicked.
+
+8th July 2025-
+
+Question 1: Create two buttons. One for area of circle and another for area of rectangle and print their result in alert.

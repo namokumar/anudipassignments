@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>String example</title>
+	<script>
+		/*--- function to convert the string from textfield in lowercase ----*/
+		function convertToLowercase()
+		{
+			var msg = ""
+			/*-- finding data from textfield ----*/
+			var data = document.getElementById("userid").value
+			/*---- to convert it into lowercase ----*/
+			var strlower = data.toLowerCase()
+			msg = "In Lowercase : "+strlower
+			/*-- displaying this msg into div ---*/
+			document.getElementById("message").innerHTML = msg
+		}
+		/*---- Function to convert data of textfield into uppercase ---*/
+		function convertToUpperCase()
+		{
+			var msg = ""
+			/*-- finding data from textfield ----*/
+			var data = document.getElementById("userid").value
+			/*---- to convert it into uppercase ----*/
+			var strupper = data.toUpperCase()
+			msg = "In Uppercasecase : "+strupper
+			/*-- displaying this msg into div ---*/
+			document.getElementById("message").innerHTML = msg
+		}
+	</script>
+</head>
+<body>
+	<form>
+		Sentence : <input type="text" name = "uname" id ="userid" required>
+		<br>
+		<div id="message">
+		</div>
+		<br>
+		<input type="button" value="To Lowercase" onclick="convertToLowercase()"><br><br>
+		<input type="button" value="To Uppercase" onclick="convertToLowercase()">
+	</form>
+</body>
+</html>
+
+

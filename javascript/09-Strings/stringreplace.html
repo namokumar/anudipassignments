@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>String example</title>
+	<script>
+		/*--- function to replace existing substring by new substring ----*/
+		function toReplaceAll()
+		{
+			var msg = ""
+			/*-- finding data from textfield ----*/
+			var sentence= document.getElementById("userid").value
+			/*---- finding existing substring ----*/
+			var oldsubstring = document.getElementById("oldvalue").value
+			/*---- finding new substring ----*/
+			var newsubstring = document.getElementById("newvalue").value
+			/*--- to replace existing substring by newsubstring ----*/
+			var newstring = sentence.replaceAll(oldsubstring,newsubstring)
+			msg = "After Relace : "+newstring
+			/*-- displaying this msg into div ---*/
+			document.getElementById("message").innerHTML = msg
+		}
+
+		/*---- Function to replace the existing substring by new substring manually*/
+		function toRelaceAllManually()
+		{
+			var msg = ""
+			/*-- finding data from textfield ----*/
+			var sentence= document.getElementById("userid").value
+			/*---- finding existing substring ----*/
+			var oldsubstring = document.getElementById("oldvalue").value
+			/*---- finding new substring ----*/
+			var newsubstring = document.getElementById("newvalue").value
+			/*---------------------------------------------------------*/
+			/*--- to split the sentence based on occurrence of oldsubstring ---*/
+			var stringparts = sentence.split(oldsubstring)
+			/*--- to join above substrings by using newsubstring ---*/
+			var newsentence = stringparts.join(newsubstring)
+			/*-----------------------------------------------------------*/
+			msg = "After Relace : "+newsentence
+			/*-- displaying this msg into div ---*/
+			document.getElementById("message").innerHTML = msg
+		}
+		
+	</script>
+</head>
+<body>
+	<form>
+		Sentence : <input type="text" name = "uname" id ="userid" required>
+		<br>
+		text to replace : <input type="text" name = "oldvalue" id ="oldvalue" required>
+		<br>
+		replace with: <input type="text" name = "newvalue" id ="newvalue" required>
+		<div id="message">
+		</div>
+		<br>
+		<input type="button" value="Replace All" onclick="toRelaceAllManually()"><br><br>
+	</form>
+</body>
+</html>
+
+
