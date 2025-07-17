@@ -1,0 +1,4 @@
+Date - 10th July 2025.
+
+Question 1 : Write a script in javascript to ctreate an array of 20 numbers and print the even numbers among them.
+question 2: Write a script in javascript to create an array of 15 numbers anf find out their average.

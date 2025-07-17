@@ -1,0 +1,4 @@
+----------- Lab question for 16th July 2025---------------
+Question 1: Create a JavaScript to display the text in red color and in uppercase whenever a key is released from text field.
+
+Question 2 : Create a javascript to display copy the text of one textfield into another textfield in uppercase whenever key is released form first textfield.

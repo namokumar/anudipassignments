@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>First Page</title>
+	<script>
+		/*--- function to display the data of textfield on change ---*/
+		function displayData()
+		{
+			/*--- fetching data from textfield ----*/
+			var data = document.getElementById("sentence").value
+			/*--------------------------------------*/
+			var msg = "You entered : "+ data
+			/*--- setting data into div ---*/
+			document.getElementById("message2").innerHTML = msg
+		}
+		/*--- function to display the data of textfield on keyreleased ---*/
+		function displayDataOnKeyUp()
+		{
+			/*--- fetching data from textfield ----*/
+			var data = document.getElementById("sentence").value
+			/*--------------------------------------*/
+			var msg = "<font color=blue>You entered : "+ data + "</font>"
+			/*--- setting data into div ---*/
+			document.getElementById("message1").innerHTML = msg
+		}
+	</script>
+</head>
+<body>
+	<form>
+		Sentence : <input type="text" name="sentence" id="sentence" onchange="displayData()" onkeyup="displayDataOnKeyUp()" required>
+		<br>
+		<br>
+
+		<div id="message1">
+		</div>
+		<br>
+		<div id="message2">
+		</div>
+	</form>
+</body>
+</html>
+

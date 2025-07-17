@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>function example</title>
+	<script>
+		/*--- creating array of 10 numbers---*/
+		let numbers = [120,150,30,50,60,70,250,130,10,20]
+		/*---- displaying using for loop ---*/
+		document.write("Numbers are : <br>")
+		for(index = 0 ; index < numbers.length ; index++)
+		{
+			document.write(numbers[index]+",")
+		}
+		/*-----------------------------------------------*/
+		document.write("<br>-----------------------------------<br>")
+		/*--- Finding the greatest number ----*/
+		max = numbers[0]
+		for(index = 1;index<numbers.length;index++)
+		{
+			if(numbers[index] > max)
+			{
+				max = numbers[index]
+			}
+		}
+		document.write("Greatest Number : "+max)
+	</script>
+	</head>
+</html>
+

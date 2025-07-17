@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>String example</title>
+	<script>
+		/*--- function to convert the string from textfield in lowercase ----*/
+		function wordCounter()
+		{
+			var msg = ""
+			/*-- finding data from textfield ----*/
+			var data = document.getElementById("sentence").value
+			/*--- trim all the leadin and trailing whitespaces from above data ---*/
+			var sentence = data.trim()
+			/*---- split it based on occurrence of space which will return array of words ----*/
+			var words = sentence.split(' ')
+			msg = "No. of words : "+words.length
+			/*-- displaying this msg into div ---*/
+			document.getElementById("message").innerHTML = msg
+		}
+	</script>
+</head>
+<body>
+	<form>
+		Sentence : <input type="text" name = "sentence" id ="sentence" required>
+		<br>
+		<div id="message">
+		</div>
+		<br>
+		<input type="button" value="Count words" onclick="wordCounter()"><br><br>
+	</form>
+</body>
+</html>
+
+

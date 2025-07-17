@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>String example</title>
+	<script>
+		/*--- function to validate number of into given textfield 
+		if it is less than 10 , it must show error message .
+		if it is greater than 20, it must show error message ----*/
+		function characterCounter()
+		{
+			var msg = ""
+			var data = document.getElementById("userid").value
+			/*---- to find out number of character : */
+			var counter = data.length
+			if(counter < 10)
+			{
+
+			 msg = "<font color=red>It contains less than 10 character</font>"
+			}
+			else if(counter > 20)
+			{
+				msg ="<font color=red> It contains more than 20 character</font"
+			}
+			/*-- displaying this msg into div ---*/
+			document.getElementById("message").innerHTML = msg
+		}
+	</script>
+</head>
+<body>
+	<form>
+		Name : <input type="text" name = "uname" id ="userid" required>
+		<br>
+		<div id="message">
+		</div>
+		<br>
+		<input type="button" value="Count characters" onclick="characterCounter()">
+	</form>
+</body>
+</html>
