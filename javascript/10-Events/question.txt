@@ -2,3 +2,9 @@
 Question 1: Create a JavaScript to display the text in red color and in uppercase whenever a key is released from text field.
 
 Question 2 : Create a javascript to display copy the text of one textfield into another textfield in uppercase whenever key is released form first textfield.
+
+Date - 22 July 2025 -
+
+1) Write a Javascript script to create 3 text field then merge the data of 1st text field with the 2nd text field and display in the 3rd textfield on change event of 2nd textfield.
+
+2) Write a Javascript script to create a textfield and display the data of the textfield in <div> in red color with bold style on change  of textfield.
