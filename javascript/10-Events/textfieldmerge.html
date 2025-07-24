@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TextField Merge</title>
+</head>
+
+<body>
+    <main>
+        <!--TextField Merge-->
+        <form>
+            <label for="first">Please Enter a text</label>
+            <textarea name="first" id="first"></textarea> <!--Taking 1st sentence/any text as input-->
+            <br>
+            <label for="second">Please Enter 2nd text</label>
+            <textarea name="second" id="second" onchange="mergeText()"></textarea>
+            <!--Taking 2nd sentence/any text as input-->
+            <br>
+            <label for="result">Result = </label>
+            <textarea name="result" id="result"></textarea> <!--Displaying the merge of 1st and 2nd inputs-->
+            <br>
+        </form>
+        <script src="textfieldmerge.js"></script> <!--Javascript File Linked here-->
+    </main>
+</body>
+
+</html>

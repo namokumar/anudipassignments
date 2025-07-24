@@ -1,1 +1,4 @@
 Write a script to fetch three numbers from textfield and find out the greatest number among them using a user defined function.
+
+Date - 17 July 2025.
+create a javascript to create a textfield . display the data of textfield into another textfield .
