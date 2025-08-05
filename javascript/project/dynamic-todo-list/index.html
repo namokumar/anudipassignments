@@ -8,12 +8,80 @@ Create a simple web page with:
 
 
 Implement the following JavaScript functionality:
+
 Adding Tasks: When the "Add Task" button is clicked:
-• Get the text from the input field.
-• If the input field is not empty, add the task to an array.
+• Get the text from the input field. ✅
+• If the input field is not empty, add the task to an array. ✅
 • Create a new list item (<li>) for the task and append it to the <ul>.
 • Inside the <li>, display the task text.
 • Add a "Mark Complete" button. When clicked, it should toggle a "completed" class on the <li> (you'll need to define this class in CSS to change its appearance, e.g., strike- through).
 • Add a "Delete" button. When clicked, it should remove the <li> from the DOM and also remove the task from the array.
 • Clear the input field.
 -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Todo List</title>
+</head>
+
+<body>
+    <main class="todolist">
+        <div class="heading">
+            <h1>Dynamic Todo List</h1>
+        </div>
+        <div>
+            <input type="text" name="new-task" id="new-task" placeholder="Enter a new Task">
+            <button onclick="addtask()">Add New Task</button>
+        </div>
+        <div class="task-container">
+            <h2>Tasks</h2>
+            <div class="task">
+                <ul id="task-list-container">
+                    <!-- <li>
+                        <span>
+                            task 1
+                        </span>
+                        <span>
+                            <button>Mark Completed</button>
+                            <button>Delete</button>
+                        </span>
+                    </li>
+                    <li>
+                        <span>
+                            task 1
+                        </span>
+                        <span>
+                            <button>Mark Completed</button>
+                            <button>Delete</button>
+                        </span>
+                    </li>
+                    <li>
+                        <span>
+                            task 1
+                        </span>
+                        <span>
+                            <button>Mark Completed</button>
+                            <button>Delete</button>
+                        </span>
+                    </li>
+                    <li>
+                        <span>
+                            task 1
+                        </span>
+                        <span>
+                            <button>Mark Completed</button>
+                            <button>Delete</button>
+                        </span>
+                    </li> -->
+                </ul>
+            </div>
+        </div>
+    </main>
+    <script src="app.js"></script>
+</body>
+
+</html>
