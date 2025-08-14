@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Public Sans', sans-serif;
+}
+
+:root {
+    --btn-color: #62C1E5;
+    --bg-color: #EBEDF2;
+}
+
+nav {
+    display: flex;
+    padding: 0.6rem 2rem;
+    border-bottom: 1.8px solid rgba(211, 211, 211, 0.797);
+}
+
+.left {
+    display: flex;
+    align-items: center;
+}
+
+nav img {
+    width: 1rem;
+    height: auto;
+    margin: 0.5rem 0.6rem 0.5rem 0.5rem;
+}
+
+.logo-text {
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.notes-content {
+    padding: 1.8rem 10rem;
+}
+
+.heading {
+    margin: 1rem 0rem;
+}
+
+#create-task {
+    margin: 1rem 0.9rem 1rem 0rem;
+    padding: 1rem;
+    width: 60%;
+    height: 37px;
+    background: #EBEDF2;
+    border: none;
+    border-radius: 0.5rem;
+}
