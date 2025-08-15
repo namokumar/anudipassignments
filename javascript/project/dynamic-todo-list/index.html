@@ -48,12 +48,12 @@ Adding Tasks: When the "Add Task" button is clicked:
             </div>
             <div>
                 <input type="text" name="new-task" id="create-task" placeholder="Enter a new Task">
-                <button onclick="addtask()">Add New Task</button>
+                <button onclick="addtask()" class="new-btn">Add New Task</button>
             </div>
             <div class="task-container">
-                <h2>Tasks</h2>
+                <h2 id="task-heading">Tasks</h2>
                 <div class="task">
-                    <ul id="task-list-container">
+                    <ol id="task-list-container">
                         <!-- <li>
                         <span>
                             task 1
@@ -64,7 +64,7 @@ Adding Tasks: When the "Add Task" button is clicked:
                         </span>
                     </li>
                     -->
-                    </ul>
+                    </ol>
                 </div>
             </div>
         </section>

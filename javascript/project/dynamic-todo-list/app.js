@@ -36,7 +36,7 @@ let newtask = []; // Array created.
 let list_container = document.getElementById("task-list-container"); // ul selected.
 function addtask() // function created.
 {
-    const task = document.getElementById("new-task").value; // storing value of input box from html.
+    const task = document.getElementById("create-task").value; // storing value of input box from html.
     if (task.trim() !== "") { // checking input is not a empty string.
         newtask.push(task);  // ✅ Data added to array.
         console.log(newtask); // printing array for checking.
@@ -44,7 +44,7 @@ function addtask() // function created.
 
         // First Span Container for new task-
         const newTaskContainer = document.createElement("span");
-        newTaskContainer.id = "listOfTask";
+        newTaskContainer.id = `listOfTask-${newtask.length}`;
         newTaskContainer.innerText = task;
         li.appendChild(newTaskContainer);
 

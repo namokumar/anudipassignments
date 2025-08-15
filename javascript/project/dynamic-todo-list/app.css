@@ -45,7 +45,33 @@ nav img {
     padding: 1rem;
     width: 60%;
     height: 37px;
+    width: 60%;
+    height: 37px;
     background: #EBEDF2;
     border: none;
     border-radius: 0.5rem;
+}
+
+.new-btn {
+    width: 7.5rem;
+    height: 37px;
+    font-weight: 700;
+    border: none;
+    border-radius: 0.5rem;
+    color: white;
+    background: rgb(14, 222, 14);
+}
+
+.task-container {
+    display: flex;
+    flex-direction: column;
+}
+
+#task-heading {
+    margin: 1.3rem 0rem;
+    font-size: 1.3rem;
+}
+
+#listofTask {
+    margin: 0rem 2rem 1rem 0rem;
 }
