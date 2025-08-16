@@ -26,60 +26,48 @@ Adding Tasks: When the "Add Task" button is clicked:
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dynamic Todo List</title>
+    <link rel="stylesheet" href="app.css">
+    <link rel="preconnect" href="https://fonts.bunny.net">
+    <link
+        href="https://fonts.bunny.net/css?family=public-sans:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i"
+        rel="stylesheet" />
 </head>
 
 <body>
     <main class="todolist">
-        <div class="heading">
-            <h1>Dynamic Todo List</h1>
-        </div>
-        <div>
-            <input type="text" name="new-task" id="new-task" placeholder="Enter a new Task">
-            <button onclick="addtask()">Add New Task</button>
-        </div>
-        <div class="task-container">
-            <h2>Tasks</h2>
-            <div class="task">
-                <ul id="task-list-container">
-                    <!-- <li>
-                        <span>
-                            task 1
-                        </span>
-                        <span>
-                            <button>Mark Completed</button>
-                            <button>Delete</button>
-                        </span>
-                    </li>
-                    <li>
-                        <span>
-                            task 1
-                        </span>
-                        <span>
-                            <button>Mark Completed</button>
-                            <button>Delete</button>
-                        </span>
-                    </li>
-                    <li>
-                        <span>
-                            task 1
-                        </span>
-                        <span>
-                            <button>Mark Completed</button>
-                            <button>Delete</button>
-                        </span>
-                    </li>
-                    <li>
-                        <span>
-                            task 1
-                        </span>
-                        <span>
-                            <button>Mark Completed</button>
-                            <button>Delete</button>
-                        </span>
-                    </li> -->
-                </ul>
+        <nav>
+            <span class="left">
+                <img src="https://ik.imagekit.io/tujsl2f24/Note%20Web%20App/noteit.png?updatedAt=1755175357575"
+                    alt="Noteit Logo">
+                <span class="logo-text">NoteIt</span>
+            </span>
+        </nav>
+        <section class="notes-content">
+            <div class="heading">
+                <h1>Dynamic Todo List</h1>
             </div>
-        </div>
+            <div>
+                <input type="text" name="new-task" id="create-task" placeholder="Enter a new Task">
+                <button onclick="addtask()" class="new-btn">Add New Task</button>
+            </div>
+            <div class="task-container">
+                <h2 id="task-heading">Tasks</h2>
+                <div class="task">
+                    <ol id="task-list-container">
+                        <!-- <li>
+                        <span>
+                            task 1
+                        </span>
+                        <span>
+                            <button>Mark Completed</button>
+                            <button>Delete</button>
+                        </span>
+                    </li>
+                    -->
+                    </ol>
+                </div>
+            </div>
+        </section>
     </main>
     <script src="app.js"></script>
 </body>
