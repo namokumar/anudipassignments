@@ -75,3 +75,7 @@ nav img {
 #listofTask {
     margin: 0rem 2rem 1rem 0rem;
 }
+
+.addStrike {
+    text-decoration: line-through;
+}
