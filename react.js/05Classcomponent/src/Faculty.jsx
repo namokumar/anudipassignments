@@ -14,7 +14,7 @@ class Faculty extends React.Component {
                 <p>Course Details: </p>
                 <Course name={this.props.course} duration={this.props.duration} details="Web Development With React!" />
             </div>
-        )
+        );
     }
 }
 export default Faculty;

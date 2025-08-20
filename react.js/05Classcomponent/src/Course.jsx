@@ -13,7 +13,7 @@ class Course extends React.Component {
                 <h2>Duration Of Course: {duration}</h2>
                 <h2>Details: {details}</h2>
             </div>
-        )
+        );
     }
 }
 export default Course;
