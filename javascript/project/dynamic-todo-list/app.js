@@ -24,7 +24,7 @@ Adding Tasks: When the "Add Task" button is clicked:
 
 • Inside the <li>, display the task text. ✅
 
-• Add a "Mark Complete" button. When clicked, it should toggle a "completed" class on the <li> (you'll need to define this class in CSS to change its appearance, e.g., strike- through).
+• Add a "Mark Complete" button. When clicked, it should toggle a "completed" class on the <li> (you'll need to define this class in CSS to change its appearance, e.g., strike- through). ✅
 
 • Add a "Delete" button. When clicked, it should remove the <li> from the DOM and also remove the task from the array.
 
@@ -56,19 +56,34 @@ function addtask() // function created.
         const markCompleteBtn = document.createElement("button");
         markCompleteBtn.id = "mark-complete-btn";
         const markCompleteText = markCompleteBtn.innerText = "Mark Complete";
-        newTaskContainer.appendChild(markCompleteBtn);
 
         // Delete buttons -
         const deleteBtn = document.createElement("button");
         deleteBtn.id = "delete-btn";
         const deleteBtnText = deleteBtn.innerText = "Delete";
-        newTaskContainer.appendChild(deleteBtn);
+
+        // Put buttons inside button span
+        newBtnContainer.appendChild(markCompleteBtn);
+        newBtnContainer.appendChild(deleteBtn);
 
         // Add both spans into li
         li.appendChild(newTaskContainer);
+        li.appendChild(newBtnContainer);
 
-        // Finally add li into ul
+        // Finally add li into ol
         list_container.appendChild(li);
+
+        // Mark Completed Functionality -
+        function addStrike() {
+            li.classList.toggle("addStrike");
+        }
+        markCompleteBtn.addEventListener('click', addStrike);
+
+        // Delete Btn functionality -
+        function deleteList() {
+            li.remove();
+        }
+        deleteBtn.addEventListener('click', deleteList);
     } else {
         alert("Please Enter a Valid task!");
     }
