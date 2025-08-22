@@ -1,13 +1,26 @@
-## Anudip Assignments – Advanced Frontend Development Portfolio
+## 🚀 Anudip Assignments – Advanced Frontend Development Portfolio
 
-This repository is a hands-on portfolio of my learning and practice for the Advanced Frontend Development (AFD) track. It demonstrates practical skills across HTML, CSS, JavaScript (DOM, events, functions), basic PHP, MySQL, and modern React with Vite. Everything here is built as small, focused exercises and mini-projects that mirror real interview questions and day‑to‑day frontend tasks.
+This repository is a hands-on portfolio of my learning and practice for the Advanced Frontend Development (ADF) track. It demonstrates practical skills across HTML, CSS, JavaScript (DOM, events, functions), basic PHP, MySQL, and modern React with Vite. Everything here is built as small, focused exercises and mini-projects that mirror real interview questions and day‑to‑day frontend tasks.
+
+— Made by **Mr Kumar** • Aspiring Frontend Developer
+
+🔗 Quick contacts: [🌐 Website](https://namokumar.com) · [📧 Email](mailto:info@namokumar.com)
+
+---
+
+### 🎯 Role objective
+I took the ADF Course to transition into a full‑time role in frontend web/software development, leveraging my QA background to build robust, user‑centric applications.
 
 ### Who is this for?
-- **Recruiters / HR**: Quick evidence I can build with HTML/CSS/JS and React, and follow clean structure and naming. The sections below show exactly what I practiced and where.
-- **Engineers / Hiring Managers**: Drill into any folder to see specific topics (DOM, state, forms, etc.). React projects compile and run locally with Vite.
-- **Clients / Non‑technical reviewers**: Each mini-example is small and self-contained. You can open most `.html` files directly in a browser to see results.
+- **Recruiters / HR**: Quick evidence I can build with HTML/CSS/JS and React, and follow clean structure and naming. The sections below show exactly what I practiced and where. ✅
+- **Engineers / Hiring Managers**: Drill into any folder to see specific topics (DOM, state, forms, etc.). React projects compile and run locally with Vite. 👩‍💻
+- **Clients / Non‑technical reviewers**: Each mini-example is small and self-contained. You can open most `.html` files directly in a browser to see results. 👀
 
-### Highlights at a glance
+### 🎓 About the ADF Course (by Anudip Foundation)
+- The **ADF (Advanced Frontend Development) Course** is conducted by **Anudip Foundation**. Anudip is a training nonprofit focused on technology‑driven employability, helping learners gain job‑ready digital skills.
+- Learn more at: [anudip.org](https://www.anudip.org/)
+
+### ✨ Highlights at a glance
 - **HTML fundamentals**: Text semantics, lists, tables, forms, links, and page structure with accessible patterns.
 - **CSS foundations**: Box model, spacing, backgrounds, display, basic components (navbar, login/signup pages).
 - **JavaScript**: Variables, operators, conditions, loops, functions, DOM manipulation, strings, events, and small utilities.
@@ -16,9 +29,9 @@ This repository is a hands-on portfolio of my learning and practice for the Adva
 
 ---
 
-## Repository Map
+## 📁 Repository Map
 
-### HTML (`html/`)
+### 🌐 HTML (`html/`)
 - `01-Bold_Italic/`: Text structure and inline semantics.
 - `02-List/`: Ordered, unordered, nested, and description lists.
 - `03-Tables/`: Multi-row/column tables, combining lists inside tables, and tabular data formatting.
@@ -29,7 +42,7 @@ This repository is a hands-on portfolio of my learning and practice for the Adva
 
 What this proves: I understand semantic HTML, accessible inputs, labels, grouping, and consistent structure for real data-entry screens.
 
-### CSS (`css/`)
+### 🎨 CSS (`css/`)
 - `01-Basics/`: Core CSS properties and docs used while practicing.
 - `02-Container/`: Container layout and properties.
 - `03-Spacing/`: Margin, padding, float usage and spacing demos.
@@ -42,7 +55,7 @@ What this proves: I understand semantic HTML, accessible inputs, labels, groupin
 
 What this proves: I can translate UI requirements into CSS layouts, manage the box model, and produce clean component-level styles.
 
-### JavaScript (`javascript/`)
+### 🧠 JavaScript (`javascript/`)
 - `01-Basics/`: Inline scripts and basic page interaction.
 - `02-Variables/`: Variables, simple math utilities (area, perimeter, average, speed), input/output with DOM.
 - `03-Operators/`: Coming soon.
@@ -59,7 +72,7 @@ What this proves: I can translate UI requirements into CSS layouts, manage the b
 
 What this proves: I write clear, small functions; handle DOM events; and build interactive mini‑apps without frameworks.
 
-### React (`react.js/` – Vite projects)
+### ⚛️ React (`react.js/` – Vite projects)
 Each subfolder is an independent Vite app. Topics build up from components to forms.
 - `02Component/`: Functional components and composition.
 - `03Props/`: Passing props and rendering lists/values.
@@ -69,13 +82,13 @@ Each subfolder is an independent Vite app. Topics build up from components to fo
 
 What this proves: I can scaffold and run Vite apps, structure components, manage state and props, and build basic form workflows.
 
-### MySQL (`mysql/`)
+### 🗄️ MySQL (`mysql/`)
 - `01-Basics/`: SQL scripts to create/show DBs and fundamentals.
 - `02CreateAnd Drop-DB/`: Example scripts for DB lifecycle.
 
 What this proves: Comfort with SQL statements and database basics for simple CRUD scaffolding.
 
-### PHP (`php/`)
+### 🐘 PHP (`php/`)
 - `01-Basics/`: Introductory PHP script(s) to bridge frontend and server-side concepts.
 
 What this proves: Awareness of backend scripting and how forms can submit to server code.
@@ -87,7 +100,7 @@ What this proves: Awareness of backend scripting and how forms can submit to ser
 
 ---
 
-## How to run / view
+## ▶️ How to run / view
 
 ### Open HTML/CSS/JS exercises
 - Most examples in `html/`, `css/`, and `javascript/` can be opened directly in a browser by double-clicking the `.html` files, or serving the folders via a simple server:
@@ -111,7 +124,7 @@ Node 18+ is recommended. If you use `pnpm` or `yarn`, the usual equivalents work
 
 ---
 
-## What this means for you
+## 🎯 What this means for you
 
 - **HR / Recruiters**: This repo shows consistent practice, naming, and topic coverage. It’s easy to map skills to artifacts. I’m ready for a frontend/React coding task.
 - **Engineering Managers**: You’ll find focused, readable code (no large frameworks beyond Vite+React). Each directory corresponds to a core concept, making it quick to assess strengths.
@@ -119,7 +132,7 @@ Node 18+ is recommended. If you use `pnpm` or `yarn`, the usual equivalents work
 
 ---
 
-## Proof of competence (topic → concrete artifacts)
+## ✅ Proof of competence (topic → concrete artifacts)
 - **Semantic HTML & Forms** → `html/04-Forms/01RegistrationForm.html`, `03LoginForm.html`, `06JobApplicationForm.html`, `projects/StudentReportSummary.html`
 - **CSS Layout & Components** → `css/06-Navbar/`, `css/projects/login-Page/`, `css/projects/Signup-Page-with-bg/`
 - **DOM & Events** → `javascript/07-DOM/DisplayTextfieldData.*`, `javascript/10-Events/`
@@ -131,18 +144,29 @@ Node 18+ is recommended. If you use `pnpm` or `yarn`, the usual equivalents work
 
 ---
 
-## Roadmap
+## 🗺️ Roadmap
 - JavaScript Operators and Arrays implementations: Coming soon
 - More React examples: React Router, Context, and simple API fetches: Coming soon
 - Accessibility and responsive design refinements: Coming soon
 
 ---
 
-## Contact
-- Connect via Anudip: `https://www.anudip.org/`
-- Open an issue in this repo for any questions or suggestions.
+## 📬 Contact
+- 👤 Name: **Mr Kumar**
+- ✉️ Email: [info@namokumar.com](mailto:info@namokumar.com)
+- 🌐 Website: [namokumar.com](https://namokumar.com)
+- 🎓 Course: **ADF Course** by [Anudip Foundation](https://www.anudip.org/)
+- 🤝 Connect via Anudip: [anudip.org](https://www.anudip.org/)
+- 🐞 Issues: Open an issue in this repo for any questions or suggestions.
 
 ---
 
-## License
+## 💼 About me
+- Former QA Engineer (Big 4) → Gurucul Solutions → Amazon → Freelance
+- Freelance collabs: Growth Loop, Kanti Design (Australia), HSB Engineering (London), and more
+- Focus now: Frontend web/software development
+
+---
+
+## ⚖️ License
 See `LICENSE` for details.
