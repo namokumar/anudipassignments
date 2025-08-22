@@ -1,6 +1,26 @@
 ## 🚀 Anudip Assignments – Advanced Frontend Development Portfolio
 
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white&style=for-the-badge)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white&style=for-the-badge)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black&style=for-the-badge)
+![React](https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=black&style=for-the-badge)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=white&style=for-the-badge)
+![PHP](https://img.shields.io/badge/PHP-777BB4?logo=php&logoColor=white&style=for-the-badge)
+
+<!-- Replace USER/REPO below after pushing to GitHub to enable these badges -->
+![Last Commit](https://img.shields.io/github/last-commit/namokumar/anudipassignments?style=flat-square)
+![Repo Views](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fnamokumar%2Fanudipassignments&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=views&edge_flat=false)
+
 This repository is a hands-on portfolio of my learning and practice for the Advanced Frontend Development (ADF) track. It demonstrates practical skills across HTML, CSS, JavaScript (DOM, events, functions), basic PHP, MySQL, and modern React with Vite. Everything here is built as small, focused exercises and mini-projects that mirror real interview questions and day‑to‑day frontend tasks.
+
+### ⚡ TL;DR
+- Frontend portfolio with real, runnable mini‑projects and exercises
+- Covers HTML/CSS/JS fundamentals, DOM & events, and React with Vite
+- Includes MySQL and PHP basics to round out full‑stack awareness
+- Built during the ADF Course by Anudip Foundation
+- Open to interviews and freelance opportunities
+
+👉 **Hire Me:** [Email](mailto:info@namokumar.com) · [Website](https://namokumar.com)
 
 — Made by **Mr Kumar** • Aspiring Frontend Developer
 
@@ -144,6 +164,15 @@ Node 18+ is recommended. If you use `pnpm` or `yarn`, the usual equivalents work
 
 ---
 
+## 🖼️ Mini gallery
+Some quick previews from inside this repo (open the folders to view the source and run locally):
+
+![Dynamic Todo List](javascript/project/dynamic-todo-list/Dynamic%20Todo%20List.jpeg)
+
+![Login Form Design](html/04-Forms/Login%20Form%20Design.jpeg)
+
+---
+
 ## 🗺️ Roadmap
 - JavaScript Operators and Arrays implementations: Coming soon
 - More React examples: React Router, Context, and simple API fetches: Coming soon
@@ -165,6 +194,11 @@ Node 18+ is recommended. If you use `pnpm` or `yarn`, the usual equivalents work
 - Former QA Engineer (Big 4) → Gurucul Solutions → Amazon → Freelance
 - Freelance collabs: Growth Loop, Kanti Design (Australia), HSB Engineering (London), and more
 - Focus now: Frontend web/software development
+
+---
+
+## 🏷️ Suggested GitHub topics
+`html` · `css` · `javascript` · `react` · `vite` · `frontend` · `dom` · `events` · `forms` · `mysql` · `php` · `portfolio` · `anudip` · `ADF-course`
 
 ---
 
